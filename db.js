@@ -1,12 +1,15 @@
 const { Sequelize } = require('sequelize')
-
+var user ="root"
+var password="Lw1K8TYOLjMngm8Pc9veBRCmgYCWQDht"
+var db = "TpCloud"
+var host = "dpg-cvlv33fgi27c73agdqn0-a"
 // database
 const sequelize = new Sequelize(
-  '', // Database name
-  '', // User
-  '', // Password
+  user, // Database name
+  password, // User
+  db, // Password
   {
-    host: '', // Host
+    host: host, // Host
     dialect: 'postgres',
     dialectOptions: {
       ssl: {
