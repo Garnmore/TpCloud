@@ -1,5 +1,5 @@
 const { Sequelize } = require('sequelize')
-ProcessingInstruction.env.DB_USER 
+// ProcessingInstruction.env.DB_USER 
 
 // database
 const sequelize = new Sequelize(
